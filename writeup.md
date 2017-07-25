@@ -11,7 +11,8 @@ HOG feature of all the data is extracted using hog function from skimage library
 
 Training and testind data sets are created and a Linear Support Vector Classifier is trained on them. Classifier has an accuracy of 98 
 percent. Deep learning can be used for classification, however, SVM is faster to train (it took under a second) and it also gave pretty 
-good accuracy.
+good accuracy. The classifier is working as expected and using a simple sliding window it was able to detect the cars, see below image.
+![Classifer_]()
 
 ## Vehicle Detection
 For vehicle detection, a small window is slide through the selected part of the image. This sliding window starts at a given starting 
@@ -36,5 +37,9 @@ Image looks like this after lable extraction:
 Detected cars look like below:
 
 ![DetectCars](https://github.com/suji0131/Vehicle_Detection/blob/master/output_imgs/detectingcars.png)
+
+Below image displays detection on every test image:
+
+![all_imgs](https://github.com/suji0131/Vehicle_Detection/blob/master/output_imgs/1alltest_imgs.png)
 
 Video can be found [here]().
