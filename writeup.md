@@ -22,15 +22,19 @@ locations. The entire search boxes looks like below:
 A heat map is used to eliminate the chance of wrong detection. This is where starting sliding window at different locations is useful. Threshold limit for car detection is 2 i.e., a car should be detected atleast twice to be classified as car. This eliminates false positives. Scipy label function is then used to extract the labels in the heat map. Final rectangles are drawn around these.
 
 Heatmap initial looks like below:
+
 ![HeatMap1](https://github.com/suji0131/Vehicle_Detection/blob/master/output_imgs/heatmap.png)
 
 Heapmap after thresholding looks like below:
+
 ![Heatmap2](https://github.com/suji0131/Vehicle_Detection/blob/master/output_imgs/heatmapthres.png)
 
 Image looks like this after lable extraction:
+
 ![lable](https://github.com/suji0131/Vehicle_Detection/blob/master/output_imgs/labels.png)
 
 Detected cars look like below:
+
 ![DetectCars](https://github.com/suji0131/Vehicle_Detection/blob/master/output_imgs/detectingcars.png)
 
 Video can be found [here]().
