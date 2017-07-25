@@ -43,3 +43,8 @@ Below image displays detection on every test image:
 ![all_imgs](https://github.com/suji0131/Vehicle_Detection/blob/master/output_imgs/1alltest_imgs.png)
 
 Video can be found [here](https://github.com/suji0131/Vehicle_Detection/blob/master/project_video_out.mp4).
+
+## Discussion
+
+Time required to process a minute of video is nearly four and half minutes, which is impractical as a self driving car has to identify lanes, position of other cars and take a decision within a few fraction of a second. For future work I will try to speed up my pipeline. I'm also looking at randomizing the sliding window. Finally, I want to combine the advanced lane find and vehicle detection.
+
