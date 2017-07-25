@@ -2,7 +2,7 @@
 
 ## Data Summary and Classification
 The main goal of this project is to learn feature extraction and using those features to identify the vehicles on the road. Execution of 
-the project can be found in the following [ipython notebook](). Udacity car and not cars data set is used. This data looks like below:
+the project can be found in the following [ipython notebook](https://github.com/suji0131/Vehicle_Detection/blob/master/Vehicle_Detection.ipynb). Udacity car and not cars data set is used. This data looks like below:
 ![SampleData](https://github.com/suji0131/Vehicle_Detection/blob/master/output_imgs/DataSumm.png)
 
 HOG feature of all the data is extracted using hog function from skimage library. I found following parameter combination to be optimal after trail and error. Color space used is 'YUV', orientation is 11, pix per cell is 16, cell per block is 2 and hog channel is set to two.
