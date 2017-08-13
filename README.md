@@ -4,7 +4,7 @@
 
 ###### Keywords: Linear Support Vector Classifier, Feature Extraction, Histogram of Oriented Gradients (HOG), OpenCV 
 
-The goal of this project is to write a software pipeline to identify vehicles in a video from a front-facing camera on a car.
+Goal of this project is to write a software pipeline to identify vehicles in a video from a front-facing camera on a car.
 - HOG features are extracted from car and non-car images and a data set is constructed.
 - A linear SVC is trained, on HOG features, to classify car and non-car images.
 - A sliding window search is used and a heat map is constructed from it to identify cars in front facing carmera image.
